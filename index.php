@@ -8,7 +8,7 @@
         <style>
             a
             {
-                color: blue;
+                color: white;
             }
             table, td, th
             { 
@@ -20,12 +20,13 @@
             {
                 padding: 2px;
                 text-align: center;
+                font-size: 16px;
+                font-weight: bold;
             }
         </style>
     </head>
     <body>
         <h1>PHP <br>Countries<br>App</h1>
-        <p>Insert, update, and delete Countries information about their Capital Cities and their corresponding population.</p>
         <?php
         require_once "login.php";
 
