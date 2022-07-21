@@ -26,7 +26,7 @@
                 padding: 2px;
                 text-align: center;
                 font-size: 16px;
-                font-weight: bolder;
+   
             }
         </style>
     </head>
