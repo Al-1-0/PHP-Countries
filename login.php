@@ -1,7 +1,7 @@
 <?php
 
-$host = "db5009539714.hosting-data.io";
+$servername = "db5009539714.hosting-data.io";
 $dbname = "dbs8089693";
-$username = "dbu1029628";
+$username = "dbs8089693";
 $password = "r3l&bttks";
 ?>
