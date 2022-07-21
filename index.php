@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Learning PHP, MySQL & JavaScript</title>
+        <title>PHP Countries</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
@@ -21,7 +21,7 @@
         </style>
     </head>
     <body>
-        <h1>Countries of the World</h1>
+        <h1>PHP Countries</h1>
         <?php
         require_once "login.php";
 
