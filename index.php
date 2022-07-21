@@ -13,6 +13,8 @@
             table, td, th
             { 
                 border: lightgray solid thin;
+                margin-left: auto;
+                margin-right: auto;
             }
             td, th
             {
@@ -22,7 +24,7 @@
         </style>
     </head>
     <body>
-        <h1>PHP Countries</h1>
+        <h1>PHP <br>Countries</h1>
         <?php
         require_once "login.php";
 

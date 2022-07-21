@@ -22,6 +22,10 @@ h1 {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  a {
+      color: white;
+      font-weight: bolder;
+  }
 #app {
     position: absolute;
     top: 50%;
