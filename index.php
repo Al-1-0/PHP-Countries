@@ -25,6 +25,7 @@
     </head>
     <body>
         <h1>PHP <br>Countries<br>App</h1>
+        <p>Insert, update, and delete Countries information about their Capital Cities and their corresponding population.</p>
         <?php
         require_once "login.php";
 
@@ -63,6 +64,6 @@
         
         $conn->close();
         ?>
-        <p><a href="insertform.php">Insert a New Record</a></p>
+        <p><a href="insertform.php">Insert New Country</a></p>
     </body>
 </html>

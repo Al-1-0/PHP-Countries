@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Learning PHP, MySQL & JavaScript</title>
+        <title>Update Countries</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             a
             {
-                color: blue;
+                color: white;
             }
             table, td, th
             { 
-                border: lightgrey solid thin;
+                border: lightgray solid thin;
+                margin-left: auto;
+                margin-right: auto;
             }
             td, th
             {
                 padding: 2px;
-                text-align: left;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
             }
         </style>
     </head>
     <body>
-        <h1>Countries of the World</h1>
+        <h1>Update the Countries</h1>
+
         <?php
         require_once "login.php";
 
