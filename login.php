@@ -1,7 +1,7 @@
 <?php
 
-$servername = "db5009539714.hosting-data.io";
-$dbname = "dbs8089693";
-$username = "dbs8089693";
-$password = "r3l&bttks";
+$servername = "remotemysql.com";
+$dbname = "WOOzg7VAfG";
+$username = "WOOzg7VAfG";
+$password = "QDHPPpCwcs";
 ?>
