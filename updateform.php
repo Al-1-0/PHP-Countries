@@ -8,6 +8,12 @@
             a
             {
                 color: white;
+                text-decoration: none;
+            }
+            a:hover 
+            {
+                text-decoration: none;
+                color: blue;
             }
             table, td, th
             { 
@@ -20,7 +26,7 @@
                 padding: 2px;
                 text-align: center;
                 font-size: 16px;
-                font-weight: bold;
+                font-weight: bolder;
             }
         </style>
     </head>
