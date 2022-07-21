@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(180deg, #785FA9  0%,  #DE7373  77%);
+    /* background: #9DDAF2; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 150vh;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    font-size: 70px;
+    background: -webkit-linear-gradient(#DE7373, #F5F2B8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #DE7373;
+    text-shadow: -0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1,
+    0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca,
+    0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0, 0.035em 0.035em 0 #f9c0d3;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background: #EBF8F4;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0 10px 20px rgb(0 0 0 / 15%);
+    padding: 20px;
+}
+
+.generate-pass {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.generate-pass input {
+    border: 1px solid #CCC;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #878787;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.generate-pass .copy {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 10px;
+    fill: #878787;
+}
+
+.inputs {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label,
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: flex;
+    gap: 20px;
+}
+
+label input {
+    pointer-events: none;
+}
+
+.slider-container {
+    display: flex;
+    gap: 20px;
+}
+
+.slider {
+    width: 100%;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+    cursor: pointer;
+}
+
+button {
+    background: #F5F2B8;
+    color: black;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 0px;
+    border-color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+}
+ button:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
