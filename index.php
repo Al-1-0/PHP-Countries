@@ -24,7 +24,7 @@
         </style>
     </head>
     <body>
-        <h2>PHP <br>Countries<br>App</h2>
+        <h1>PHP <br>Countries<br>App</h1>
         <?php
         require_once "login.php";
 
