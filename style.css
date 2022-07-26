@@ -96,7 +96,7 @@ label input {
 }
 
 button {
-    background: rgb(247, 255, 4);
+    background: rgb(250, 255, 104);
     color: black;
     -webkit-border-radius: 60;
     -moz-border-radius: 60;
@@ -107,7 +107,8 @@ button {
     border-radius: 20px;
     border: 0;
     cursor: pointer;
-    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
     padding-left: 20%;
     padding-right: 20%;
 }
