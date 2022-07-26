@@ -8,13 +8,13 @@
         <style>
             a
             {
-                color: white;
+                color: #06e;
                 text-decoration: none;
             }
             a:hover 
             {
                 text-decoration: none;
-                color: blue;
+                color: white;
             }
             table, td, th
             { 
