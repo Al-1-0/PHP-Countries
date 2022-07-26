@@ -71,7 +71,7 @@
         
         $conn->close();
         ?>
-        <p><a href="insertform.php">Insert New Country</a></p>
-        <p><a href="https://al-1-0.netlify.app/#project-section">Back to Portfolio</a></p>
+        <p><button><a href="insertform.php">Insert New Country</a></button></p>
+        <p><button><a href="https://al-1-0.netlify.app/#project-section">Back to Portfolio</a></button></p>
     </body>
 </html>
