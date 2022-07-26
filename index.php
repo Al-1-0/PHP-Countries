@@ -47,6 +47,7 @@
         if ($result->num_rows > 0) {
             echo "<table>\n"
             . "\t\t\t<tr>\n"
+            // . "\t\t\t\t<th>ID</th>\n"
             . "\t\t\t\t<th>Country</th>\n"
             . "\t\t\t\t<th>Capital</th>\n"
             . "\t\t\t\t<th>Population</th>\n"
@@ -55,7 +56,7 @@
             . "\t\t\t</tr>\n";
             while ($row = $result->fetch_assoc()) {
                 echo "\t\t\t<tr>\n"
-                . "\t\t\t\t<td>" . $row["id"] . "</td>\n"
+                // . "\t\t\t\t<td>" . $row["id"] . "</td>\n"
                 . "\t\t\t\t<td>" . $row["country"] . "</td>\n"
                 . "\t\t\t\t<td>" . $row["capital"] . "</td>\n"
                 . "\t\t\t\t<td>" . $row["population"] . "</td>\n"
