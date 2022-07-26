@@ -47,7 +47,6 @@
         if ($result->num_rows > 0) {
             echo "<table>\n"
             . "\t\t\t<tr>\n"
-            . "\t\t\t\t<th>ID</th>\n"
             . "\t\t\t\t<th>Country</th>\n"
             . "\t\t\t\t<th>Capital</th>\n"
             . "\t\t\t\t<th>Population</th>\n"
